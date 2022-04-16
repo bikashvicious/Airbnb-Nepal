@@ -1,0 +1,143 @@
+.heading {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 50px;
+  line-height: 110%;
+}
+
+.subheading {
+  position: relative;
+  left: 50px;
+
+  width: 400px;
+  padding-bottom: 300px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.kum {
+  position: absolute;
+  left: 665px;
+  padding: 10px 20px;
+  top: 250px;
+}
+
+.img-card {
+  width: 800px;
+}
+
+.img {
+  width: 800px;
+  height: 400px;
+}
+
+.things-trip {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+
+  position: absolute;
+  top: 240px;
+  left: 720px;
+  width: 180px;
+}
+
+.button {
+  position: absolute;
+  top: 590px;
+  left: 720px;
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #e7e7e7;
+}
+
+.shop-heading {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  left: 50px;
+  top: 450px;
+  width: 250px;
+  font-size: 40px;
+}
+.learnmore {
+  position: absolute;
+  top: 590px;
+  left: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+.learnmore:hover {
+  background-color: black;
+}
+
+.img-div {
+  padding-bottom: 60px;
+}
+.img-question {
+  border-radius: 10px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.question-hosting {
+  color: aliceblue;
+  font-size: 80px;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+
+  position: absolute;
+  top: 1480px;
+  left: 250px;
+  width: 180px;
+}
+
+.ask {
+  position: absolute;
+  top: 1950px;
+  left: 250px;
+  background-color: white;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+
+  padding: 15px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ask:hover {
+  background-color: #e7e7e7;
+}

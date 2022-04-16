@@ -1,0 +1,112 @@
+.navbar {
+  position: relative;
+  display: flex;
+  height: 70px;
+  background-color: blanchedalmond;
+
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.logo {
+  position: absolute;
+  height: 40px;
+  width: 130px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50px;
+  cursor: pointer;
+}
+
+.search-field {
+  position: absolute;
+  border-radius: 50px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 650px;
+  background-color: #ffffff;
+  width: 250px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.22);
+}
+
+.search-field fieldset {
+  border-radius: 50px;
+}
+
+.circle-search {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 860px;
+  top: 25px;
+  background-color: #ff5a5f;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.search-icon {
+  padding: 5px 5px;
+}
+
+.host {
+  position: absolute;
+
+  border-radius: 20px;
+  padding: 10px 10px;
+  left: 1150px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.host:hover {
+  background-color: #f4f4f4;
+}
+
+.language {
+  position: absolute;
+  left: 1320px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.language:hover {
+  background-color: #f4f4f4;
+}
+
+.toggle {
+  position: absolute;
+  left: 1400px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-radius: 20px;
+  background-color: #ffffff;
+  padding: 7px 10px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+.toggle:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.22);
+}
+
+.menu {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.account {
+  padding-right: 5px;
+}
